@@ -19,8 +19,11 @@ Aplikasi Manajemen Buku Pribadi ini memungkinkan pengguna untuk mencatat buku-bu
    
 ## Screenshot Antarmuka
 
+```
 Homepage
 ![image](https://github.com/user-attachments/assets/d2fd89bf-44c3-41b8-aca3-f58d1d0fc491)
-
+```
+```
 Statistik
 ![image](https://github.com/user-attachments/assets/f1a99dd8-4724-4c28-8daf-feee2257b754)
+```
