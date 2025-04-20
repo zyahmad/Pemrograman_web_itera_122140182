@@ -67,5 +67,3 @@ function useLocalStorage(key, initialValue) {
   return [storedValue, setValue];
 }
 ```
-
-## ✅ Laporan Testing
