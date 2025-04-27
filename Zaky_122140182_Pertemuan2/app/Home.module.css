@@ -1,0 +1,92 @@
+/* app/styles/Home.module.css */
+
+.container {
+  max-width: 800px; /* Maksimal lebar kontainer */
+  margin: 0 auto; /* Pusatkan kontainer */
+  padding: 20px; /* Padding di dalam kontainer */
+  background-color: #f9f9f9; /* Warna latar belakang */
+  border-radius: 8px; /* Sudut melengkung */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+
+.content {
+  margin-top: 20px; /* Jarak atas untuk konten */
+}
+
+/* Gaya untuk form */
+.form {
+  display: flex; /* Flexbox untuk form */
+  justify-content: center; /* Pusatkan konten */
+  margin: 20px 0; /* Margin atas dan bawah */
+}
+
+.formInput {
+  padding: 10px; /* Padding untuk input */
+  border: 1px solid #ccc; /* Border */
+  border-radius: 5px; /* Sudut melengkung */
+  width: 300px; /* Lebar input */
+  margin-right: 10px; /* Jarak kanan */
+  font-size: 16px; /* Ukuran font */
+}
+
+.formButton {
+  padding: 10px 15px; /* Padding untuk tombol */
+  border: none; /* Tanpa border */
+  border-radius: 5px; /* Sudut melengkung */
+  background-color: #0070f3; /* Warna latar belakang tombol */
+  color: white; /* Warna teks */
+  cursor: pointer; /* Kursor pointer */
+  transition: background-color 0.3s; /* Transisi untuk hover */
+}
+
+.formButton:hover {
+  background-color: #005bb5; /* Warna latar belakang saat hover */
+}
+
+/* Gaya untuk daftar tugas */
+.taskList {
+  list-style-type: none; /* Tanpa bullet */
+  padding: 0; /* Tanpa padding */
+}
+
+.taskItem {
+  background: white; /* Warna latar belakang item */
+  margin: 10px 0; /* Margin atas dan bawah */
+  padding: 15px; /* Padding untuk item */
+  border-radius: 5px; /* Sudut melengkung */
+  display: flex; /* Flexbox untuk item */
+  justify-content: space-between; /* Jarak antara elemen */
+  align-items: center; /* Pusatkan item secara vertikal */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+
+.taskText {
+  font-size: 18px; /* Ukuran font untuk teks tugas */
+}
+
+/* Gaya untuk tombol edit dan delete */
+.editButton, .deleteButton {
+  padding: 5px 10px; /* Padding untuk tombol */
+  border: none; /* Tanpa border */
+  border-radius: 5px; /* Sudut melengkung */
+  cursor: pointer; /* Kursor pointer */
+  transition: background-color 0.3s; /* Transisi untuk hover */
+}
+
+.editButton {
+  background-color: #ffcc00; /* Warna latar belakang tombol edit */
+  color: black; /* Warna teks tombol edit */
+}
+
+.editButton:hover {
+  background-color: #e6b800; /* Warna latar belakang saat hover */
+}
+
+.deleteButton {
+  background-color: #ff4d4d; /* Warna latar belakang tombol delete */
+  color: white; /* Warna teks tombol delete */
+}
+
+.deleteButton:hover {
+  background-color: #e60000; /* Warna latar belakang saat hover */
+}
