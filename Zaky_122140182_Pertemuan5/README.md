@@ -1,4 +1,4 @@
-#Sistem Perpustakaan - Konsep OOP yang Diterapkan
+# Sistem Perpustakaan - Konsep OOP yang Diterapkan
 
 Program ini merupakan simulasi sederhana sistem perpustakaan yang dibuat menggunakan **Python** dan menerapkan prinsip-prinsip dasar dari **Object-Oriented Programming (OOP)**. Berikut adalah penjelasan konsep OOP yang digunakan dalam program ini:
 
